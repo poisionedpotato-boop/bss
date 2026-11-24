@@ -7478,7 +7478,7 @@ function BeeSwarmSimulator(DATA){
                 player.pollenFromTools*=amount*0.2+1.05
                 player.pollenFromBees*=amount*0.2+1.05
                 player.honeyPerPollen*=amount*0.04+1.01
-                player.lootLuck*=amount*0.09+1.01
+                player.lootLuck*=amount*2000+1.01
                 player.capacity*=1.25
             },
             
