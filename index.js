@@ -5398,7 +5398,7 @@ function BeeSwarmSimulator(DATA){
                 player.redPollen*=1.5
                 player.bluePollen*=1.5
                 player.pollenFromTools*=1.3
-                player.pollenFromBees*=1.3
+                player.pollenFromBees*=100
             },
             
             getMessage:(amount)=>{
