@@ -5394,9 +5394,9 @@ function BeeSwarmSimulator(DATA){
             
             update:(amount,player)=>{
                 
-                player.capacity*=1.25
-                player.redPollen*=1.5
-                player.bluePollen*=1.5
+                player.capacity*=100
+                player.redPollen*=100
+                player.bluePollen*=100
                 player.pollenFromTools*=1.3
                 player.pollenFromBees*=100
             },
