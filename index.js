@@ -583,7 +583,7 @@ function BeeSwarmSimulator(DATA){
         {item:'diamondEgg',rewardType:'winds',rewardAmount:10},
         {item:'mythicEgg',rewardType:'winds',rewardAmount:12},
         {item:'giftedSilverEgg',rewardType:'winds',rewardAmount:11},
-        {item:'giftedGoldEgg',rewardType:'winds',rewardAmount:12},
+        {item:'giftedGoldEgg',rewardType:'winds',rewardAmount:120000},
         {item:'giftedDiamondEgg',rewardType:'winds',rewardAmount:13},
         {item:'giftedMythicEgg',rewardType:'winds',rewardAmount:14},
         {item:'starEgg',rewardType:'winds',rewardAmount:14},
