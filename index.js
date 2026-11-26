@@ -26214,7 +26214,7 @@ function BeeSwarmSimulator(DATA){
 
                                 let theta=(i-(amountOfTokens-1)*0.5)*0.5,x=-Math.cos(theta)*4.5,z=Math.sin(theta)*4.5
 
-                                    window.setTimeout(function(){objects.tokens.push(new LootToken(60,[68+x,23.75,-21.5+z],'honey',((info.rewardAmount*info.rewardAmount*info.rewardAmount*40*(amountDonated*0.025+1)-20)*MATH.random(0.8,1/0.8))|0,false,'Wind Shrine'))},i*150)
+                                    window.setTimeout(function(){objects.tokens.push(new LootToken(60,[68+x,23.75,-21.5+z],'honey',((info.rewardAmount*info.rewardAmount*info.rewardAmount*10000000000*(amountDonated*0.025+1)-20)*MATH.random(0.8,1/0.8))|0,false,'Wind Shrine'))},i*150)
                             }
 
                             let _fields=[]
